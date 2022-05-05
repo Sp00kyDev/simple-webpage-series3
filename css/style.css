@@ -1,0 +1,116 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:wght@300;400;500;700&display=swap');
+
+
+
+/*Reset*/
+body, div, p, h1, h2, h3, h4, footer{
+    padding: 0;
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;/*might have to change this one later*/
+    /*border: 1px solid black;*/
+    max-width: 440px;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    /*border: 2px solid red;*/
+    width: 340px;
+    /*margin: 50px 0px 50px 0px;*/
+    
+}
+
+.mainContent{
+    /*border: 2px solid green;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 468px;
+    flex-wrap: wrap;
+    
+    
+
+}
+
+.flex-item1{
+    width: 320px;
+    /*background-color: skyblue;*/
+    height: 135px;
+    align-self: start;
+    font-size: 2.8em;
+    line-height: .95em;
+
+}
+
+.flex-item2{
+   /*background-color: brown;*/
+    height: 140px;
+    width: 285px;
+    display: flex;
+    flex-direction: column;
+    align-self: end;
+    padding: 0px 15px 0px 0px;
+
+}
+
+.link-alignment{
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  
+
+}
+
+.link-alignment a{
+    align-self: flex-end;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+
+}
+
+
+
+.img-container{
+
+}
+
+img{
+    width: 340px;
+    height: 385px;
+}
+
+footer{
+    background-color: #1a1f29;
+    height: 97.59px;
+    margin-top: 0px;
+    width: 440px;
+    /*text-align: center;*/
+    color: white;
+    font-size: 0.85em;
+}
+
+footer p{
+    padding: 40px 25px 25px 25px;
+
+}
+
+footer a{
+    
+    color: skyblue;
+}
+
