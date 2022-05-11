@@ -179,7 +179,7 @@ footer a{
     }
     
     footer{
-        min-width: 640px;
+        /*min-width: 640px;*/
         width:100%;
         /*might have to change the code below*/
         font-size: 0.85em;
