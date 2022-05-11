@@ -128,7 +128,7 @@ footer a{
 
 
 /*landscape mode?*/
-@media (min-width: 640px){
+@media (max-width: 640px){
 
     body{
         width: 640px;
