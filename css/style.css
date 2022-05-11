@@ -172,8 +172,7 @@ footer a{
     }
     
     footer{
-        /*min-width: 640px;*/
-        width:100%;
+        min-width: 640px;
         font-size: 1em; 
     
     }
@@ -251,7 +250,7 @@ footer a{
     
 
     footer{ /*fix footer */
-        width:100%;
+        min-width: 768px;
         font-size: 1em; 
     
     }
@@ -267,10 +266,39 @@ footer a{
 
 
 
+}
 
 
 
 
 
+/*Laptop*/
+@media (min-width: 1080px){
+
+    
+    .wrapper{
+        width: 940px;        
+    }
+
+
+    .mainContent{
+        width: 470px;
+    }
+
+    .flex-item1{
+        max-width: 470px;
+    }
+
+
+    footer{ 
+        min-width: 1080px;
+        font-size: 1em; 
+    
+    }
+    
+    footer p{
+        padding: 3% 0% 0% 30%;
+    
+    }
 
 }
