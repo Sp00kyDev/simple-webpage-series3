@@ -17,6 +17,7 @@ body{
     margin: 0 auto;/*might have to change this one later*/
     /*border: 1px solid black;*/
     width: 440px;
+    width:100%;
     font-family: 'Open Sans', sans-serif;
     display: flex;
     flex-wrap: wrap;
