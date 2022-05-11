@@ -155,7 +155,7 @@ footer a{
     }
     
     .flex-item2{
-        width: 485px; /*285 originally*/
+        width: 485px; 
     
     }
     
@@ -174,19 +174,92 @@ footer a{
     footer{
         /*min-width: 640px;*/
         width:100%;
-        /*might have to change the code below*/
-        font-size: 1em; /*originally 0.85*/
+        font-size: 1em; 
     
     }
     
     footer p{
-       /*miight have to change the code below*/
         padding: 5.5% 3% 0% 20%;
     
     }
     
     footer a{
+        color: skyblue;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+/*tablet*/
+@media (min-width: 768px){
+
+    body{
+        width: 740px;
+    }
+    
+    .wrapper{
+        width: 740px;
+        margin: 10% 0% 10% 0%;
         
+    }
+
+
+    .mainContent{
+        width: 640px;
+       
+    }
+    
+    .flex-item1{
+        width: 620px;
+        font-size: 2.9em; /**/
+    
+    
+    }
+    
+    .flex-item2{
+        width: 585px; /*485*/
+    
+    }
+    
+
+    .img-container{
+        width: 740px;
+    }
+    
+    
+    img{
+        width: 740px;
+        /*height: 385px;*/
+        
+    }
+    
+    footer{
+        /*min-width: 640px;*/
+        width:100%;
+        font-size: 1em; 
+    
+    }
+    
+    footer p{
+        padding: 5.5% 3% 0% 20%;
+    
+    }
+    
+    footer a{
         color: skyblue;
     }
 
