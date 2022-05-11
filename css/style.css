@@ -66,8 +66,8 @@ body{
     display: flex;
     flex-direction: column;
     align-self: end;
-    /*padding: 0px 15px 0px 0px;*/
-    padding: 0em 0em 0em 0em;
+    padding: 0px 15px 0px 0px;
+    /*padding: 0em 0em 0em 0em;*/
 
 }
 
