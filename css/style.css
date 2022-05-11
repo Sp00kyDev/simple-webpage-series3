@@ -16,11 +16,12 @@ body, div, p, h1, h2, h3, h4, footer{
 body{
     margin: 0 auto;/*might have to change this one later*/
     /*border: 1px solid black;*/
-    max-width: 440px;
+    width: 490px;
     font-family: 'Open Sans', sans-serif;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
    
 }
 
@@ -30,6 +31,7 @@ body{
     /*border: 2px solid red;*/
     width: 340px;
     /*margin: 50px 0px 50px 0px;*/
+    flex-shrink: 0;
     
 }
 
@@ -40,6 +42,7 @@ body{
     justify-content: space-around;
     height: 468px;
     flex-wrap: wrap;
+    width: 340px;
     
     
 
@@ -96,16 +99,20 @@ img{
 
 footer{
     background-color: #1a1f29;
+    position: fixed;
+    bottom: 0;
     height: 97.59px;
     margin-top: 0px;
-    width: 440px;
+    min-width: 440px;
     /*text-align: center;*/
     color: white;
     font-size: 0.85em;
+    /*flex: 0 0 440px;*/
 }
 
 footer p{
-    padding: 40px 25px 25px 25px;
+    /*padding: 40px 25px 25px 25px;*/
+    padding: 8% 5% 5% 7%;
 
 }
 
@@ -113,4 +120,3 @@ footer a{
     
     color: skyblue;
 }
-
