@@ -201,54 +201,56 @@ footer a{
 
 
 
-
-
-
 /*tablet*/
 @media (min-width: 768px){
 
     body{
-        width: 740px;
+        width: 768px;
     }
     
     .wrapper{
         width: 740px;
         margin: 10% 0% 10% 0%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: no-wrap;
         
     }
 
 
     .mainContent{
-        width: 640px;
-       
+        width: 370px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
-    
+
     .flex-item1{
-        width: 620px;
-        font-size: 2.9em; /**/
-    
-    
+        font-size: 3.5em !important; /*why?????*/
+        font-weight: bolder;
+        max-width: 370px;
     }
+
+  
+
     
     .flex-item2{
-        width: 585px; /*485*/
-    
+        max-width: 300px; 
     }
     
 
     .img-container{
-        width: 740px;
+        width: 370px;
+        height: 468px;
     }
-    
-    
+
     img{
-        width: 740px;
-        /*height: 385px;*/
-        
+        width: 370px;
+        height: 468px;
     }
     
-    footer{
-        /*min-width: 640px;*/
+
+    footer{ /*fix footer */
         width:100%;
         font-size: 1em; 
     
