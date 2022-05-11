@@ -277,7 +277,45 @@ footer a{
 
     
     .wrapper{
-        width: 940px;        
+        width: 940px;     
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+    .mainContent{
+        width: 470px;
+    }
+
+
+
+    .flex-item1{
+        max-width: 470px;
+    }
+
+
+    footer{ 
+        min-width: 1080px;
+        font-size: 1em; 
+    
+    }
+    
+    footer p{
+        padding: 3% 0% 0% 30%;
+    
+    }
+
+}
+
+
+
+
+/*Desktop*/
+@media (min-width: 1096px){
+
+    
+    .wrapper{
+        width: 950px;        
     }
 
 
