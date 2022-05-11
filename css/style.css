@@ -103,7 +103,6 @@ img{
 footer{
     background-color: #1a1f29;
     height: 97.59px;
-    margin-top: 0px;
     min-width: 440px;
     width:100%;
     /*text-align: center;*/
@@ -121,4 +120,80 @@ footer p{
 footer a{
     
     color: skyblue;
+}
+
+
+
+
+
+
+/*landscape mode?*/
+@media (min-width: 640px){
+
+    body{
+        width: 640px;
+    }
+    
+    .wrapper{
+        width: 540px;
+        margin: 10% 0% 10% 0%;
+        
+    }
+
+
+    .mainContent{
+        width: 540px;
+    }
+    
+    .flex-item1{
+        width: 520px;
+        /*might have to change the below*/
+        align-self: start;
+        font-size: 2.8em;
+        line-height: .95em;
+    
+    }
+    
+    .flex-item2{
+        width: 485px; /*285 originally*/
+        /*might have to change the below*/
+        padding: 0em 0.9375em 0em 0em;
+    
+    }
+    
+ 
+    
+    
+    img{
+        width: 340px;
+        height: 385px;
+    }
+    
+    footer{
+        min-width: 640px;
+        width:100%;
+        /*might have to change the code below*/
+        font-size: 0.85em;
+    
+    }
+    
+    footer p{
+       /*miight have to change the code below*/
+        padding: 8% 5% 5% 7%;
+    
+    }
+    
+    footer a{
+        
+        color: skyblue;
+    }
+
+
+
+
+
+
+
+
+
 }
