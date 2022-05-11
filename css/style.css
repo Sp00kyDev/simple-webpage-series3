@@ -60,13 +60,13 @@ body{
 }
 
 .flex-item2{
-   /*background-color: brown;*/
+   background-color: brown;
     height: 140px;
     width: 285px;
     display: flex;
     flex-direction: column;
     align-self: end;
-    padding: 0px 0px 0px 40px;
+    padding: 0px 15px 0px 0px;
     /*padding: 0em 0em 0em 0em;*/
 
 }
